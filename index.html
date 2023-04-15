@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="script.css">
+</head>
+<body>
+    <form id="form">
+        <div>
+            <label for="FirstName">First Name:</label><br>
+            <input class="forminput" type="text" placeholder="Enter the Firstname" name="First Name" id="firstName"><br>
+        </div>
+        <div>
+            <label for="LastName">Last Name:</label><br>
+            <input class="forminput" type="text" placeholder="Enter the Lastname" name="Last Name" id="lastName"><br>
+        </div>
+        <div>
+            <label for="Address">Address:</label><br>
+            <input class="forminput" type="text" placeholder=" Enter the Address" name="Address" id="address"><br>
+        </div>
+        <div>
+            <label for="Pincode">Pincode:</label><br>
+            <input class="forminput" type="text" placeholder=" Enter the Pincode " name="Pincode" id="pincode"><br>
+        </div>
+        <div>
+            <label for="Gender">Gender:</label><br>
+            <!-- <input type="radio" name="gender" id="gender">Male<br>
+            <input type="radio" name="gender" id="gender">Female<br>
+            <input type="radio" name="gender" id="gender">Other<br> -->
+            <select class="forminput" id="gender">
+                <option>Choice of food</option> 
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>   
+            </select>
+        </div>
+        <div>
+            <label for="Food">Choice of food:</label><br>
+            <select class="forminput" id="food">
+                <!-- <option>Choice of food</option> -->
+                <option>Sandwich</option>
+                <option>Burger</option>
+                <option>Pizza</option>
+                <option>Donets</option>
+                <option>Frenchfries</option>
+            </select>
+        </div>
+        <div>
+            <label for="State">State:</label><br>
+            <input class="forminput" type="text" placeholder=" Enter the State" name="State" id="state" ><br>
+        </div>
+        <div>
+            <label for="Country">Country:</label><br>
+            <input class="forminput" type="text" placeholder=" Enter the Country " name="Country" id="country"><br>
+        </div>
+       <br><button class="formbutton" type="submit" id="submit">Submit</button><br>
+    
+    <div>
+    <table class="table">
+        <thead>
+        <tr>
+        <th>First name</th>
+        <th>Last name</th>
+        <th>Address</th>
+        <th>Pincode</th>
+        <th>Gender</th>
+        <th>Choice Of Food</th>
+        <th>State</th>
+        <th>Country</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      </tbody>
+      
+      </table>
+    </div>
+    </form>
+    <script src="script.js"></script>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+</body>
+</html>
